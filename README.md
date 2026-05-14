@@ -56,12 +56,12 @@ Day26-MãHọcViên/                                ← kho GitHub công khai (1
 Sao chép mẫu này vào `README.md` ở gốc kho bài và điền:
 
 ```markdown
-# Day 26 — A20-XXXXX [Họ tên]
+# Day 26 — 2A202600015 Chu Thị Ngọc Huyền
 
 ## Thông tin học viên
 
-- Mã học viên: A20-XXXXX
-- Họ tên: [...]
+- Mã học viên: 2A202600015
+- Họ tên: Chu Thị Ngọc Huyền
 - Track: AI Product Strategy
 
 ## Kết quả cuối
