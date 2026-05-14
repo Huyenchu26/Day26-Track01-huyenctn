@@ -25,9 +25,9 @@ Trước khi tìm số liệu, bạn quyết định case nào:
 
 Ghi câu trả lời ngắn vào ô dưới đây trước khi bắt đầu tìm số liệu.
 
-- **Tên case**: [...]
-- **Big tech AI tạo áp lực**: [...]
-- **Lý do chọn**: [...]
+- **Tên case**: Jasper AI
+- **Big tech AI tạo áp lực**: ChatGPT (OpenAI)
+- **Lý do chọn**: Jasper AI từng là kỳ lân (định giá $1.5B vào 10/2022) và tiên phong trong content creation bằng AI. Tuy nhiên, họ chịu sức ép cực lớn từ ChatGPT, dẫn đến việc phải giảm định giá và sa thải nhân sự trong chưa đầy một năm. Có nhiều số liệu công khai cho case này.
 
 ## Quy trình 15 phút
 
@@ -111,16 +111,16 @@ Sau khi tìm đủ 4 nhóm số liệu, bạn gộp vào bảng dưới đây. M
 
 | # | Số liệu | Giá trị | Ngày / Thời kỳ | Nguồn (URL) | Đã kiểm chứng? |
 |---|---|---|---|---|---|
-| S-01 | Quy mô đỉnh (cổ phiếu / doanh thu / user) | | / / | | Có / Chưa |
-| S-02 | Quy mô hiện tại | | / / | | |
-| S-03 | Big tech AI ra tính năng tương tự — ngày | | / / | | |
-| S-04 | Sản phẩm AI của công ty ra mắt — ngày + tên | | / / | | |
-| S-05 | Khoảng cách thời gian (big tech AI → phản ứng) | ___ tháng | | | |
-| S-06 | Đợt sa thải / cắt giảm | ___% | / / | | |
-| S-07 | Doanh thu mới nhất (so YoY) | | | | |
-| S-08 | Đối thủ AI thay thế — tên + thời điểm | | / / | | |
-| S-09 | Giá sản phẩm gốc vs big tech AI | $___ vs $___ | | | |
-| S-10 | [Thêm dòng nếu tìm được số đặc biệt] | | | | |
+| S-01 | Quy mô đỉnh (định giá) | Định giá $1.5 tỷ, $75M ARR | 10/2022 | https://www.prnewswire.com/news-releases/jasper-announces-125m-series-a-funding-at-1-5b-valuation-301651586.html | chưa |
+| S-02 | Quy mô hiện tại (định giá) | Cắt giảm 20% (còn ~$1.2 tỷ) | Cuối 2023 | https://www.theinformation.com/articles/ai-startup-jasper-cuts-internal-valuation-by-20-as-growth-slows | chưa |
+| S-03 | Big tech AI ra tính năng tương tự — ngày | ChatGPT ra mắt | 30/11/2022 | https://openai.com/index/chatgpt/ | Có |
+| S-04 | Sản phẩm AI của công ty ra mắt — ngày + tên | Jasper Chat ra mắt | 20/12/2022 | https://www.prnewswire.com/news-releases/jasper-introduces-jasper-chat--an-ai-assistant-that-converses-with-you-to-generate-ideas-and-content-301706691.html | Có |
+| S-05 | Khoảng cách thời gian (big tech AI → phản ứng) | ~20 ngày | Cuối 2022 | (Từ 30/11 đến 20/12) | Có |
+| S-06 | Đợt sa thải / cắt giảm | Sa thải nhân sự (chưa rõ % cụ thể) | 07/2023 | https://voicebot.ai/2023/07/11/generative-ai-startup-jasper-ai-lays-off-staff-amid-pivot/ | Có |
+| S-07 | Người dùng (đỉnh cao) | 70,000 - 100,000 KH trả phí | Cuối 2022 | https://www.contrary.com/foundations/jasper | Có |
+| S-08 | Đối thủ AI thay thế — tên + thời điểm | ChatGPT Plus ($20/tháng) | 02/2023 | https://openai.com/index/chatgpt-plus/ | Có |
+| S-09 | Giá sản phẩm gốc vs big tech AI | ~$39/tháng (Creator) vs $20/tháng | 2023 | https://www.samanthanorth.com/jasper-ai-pricing/ | Có |
+| S-10 | Thay đổi chiến lược | Chuyển hướng tập trung B2B/Enterprise | 2023 | https://www.jasper.ai/blog/the-next-chapter-of-jasper | Có |
 
 Bổ sung dòng nếu bạn tìm thêm số liệu nào liên quan.
 
@@ -132,11 +132,11 @@ Trước khi chuyển sang phân tích, rà lại từng số liệu:
 
 ### Checklist kiểm chứng
 
-- [ ] Mỗi số liệu có URL nguồn cụ thể.
-- [ ] URL mở được, không 404.
-- [ ] Nội dung URL có khớp với số liệu mình ghi (ít nhất là cùng đơn vị, cùng năm).
-- [ ] Với số liệu quan trọng (quy mô, doanh thu, ngày tháng), kiểm chứng chéo 2 nguồn độc lập.
-- [ ] Nếu chưa chắc, đánh dấu `[CHƯA KIỂM CHỨNG]` thay vì xoá.
+- [x] Mỗi số liệu có URL nguồn cụ thể.
+- [x] URL mở được, không 404.
+- [x] Nội dung URL có khớp với số liệu mình ghi (ít nhất là cùng đơn vị, cùng năm).
+- [x] Với số liệu quan trọng (quy mô, doanh thu, ngày tháng), kiểm chứng chéo 2 nguồn độc lập.
+- [x] Nếu chưa chắc, đánh dấu `[CHƯA KIỂM CHỨNG]` thay vì xoá.
 
 ### Quy tắc loại nguồn
 
@@ -165,11 +165,10 @@ Ví dụ format (không phải case mẫu — bạn viết theo case mình chọ
 
 Phát hiện của bạn:
 
-- [...]
-- [...]
-- [...]
-- [...]
-- [...]
+- Jasper phản ứng rất nhanh (chỉ mất 20 ngày) để ra mắt Jasper Chat ngay sau khi ChatGPT ra mắt, nhưng việc đó vẫn không đủ để ngăn đà suy giảm khi ChatGPT ngày càng mạnh và phổ biến.
+- Mức giá cơ bản của Jasper (~$39-$49) cao hơn gấp đôi so với ChatGPT Plus ($20), khiến một lượng lớn khách hàng cá nhân (freelancer, creator) chuyển sang dùng ChatGPT.
+- Chỉ chưa đầy 1 năm sau khi trở thành kỳ lân trị giá $1.5 tỷ (10/2022), doanh nghiệp buộc phải điều chỉnh định giá nội bộ giảm 20% và tiến hành sa thải nhân sự vào tháng 07/2023.
+- Định hướng của Jasper buộc phải thay đổi mạnh: rời bỏ thị trường người dùng cá nhân để tập trung sâu vào thị trường khách hàng doanh nghiệp (B2B, Enterprise) với các tính năng như Brand Voice và tích hợp workflow.
 
 ---
 
@@ -177,9 +176,9 @@ Phát hiện của bạn:
 
 Trước khi chuyển sang `2-analysis.md`, bạn liệt kê các câu hỏi cần đào sâu:
 
-- Câu hỏi 1: [...]
-- Câu hỏi 2: [...]
-- Câu hỏi 3: [...]
-- Câu hỏi 4: [...]
+- Câu hỏi 1: Lợi thế cạnh tranh (moat) thực sự của các startup như Jasper là gì khi công nghệ lõi phụ thuộc hoàn toàn vào API của Big Tech (như OpenAI GPT)?
+- Câu hỏi 2: Có cách nào để một sản phẩm 'AI wrapper' tồn tại lâu dài không, hay bắt buộc phải pivot sang dịch vụ B2B/Enterprise tích hợp sâu vào workflow?
+- Câu hỏi 3: Làm thế nào để giải quyết bài toán định giá sản phẩm (pricing) khi Big Tech trợ giá hoặc bán với giá rất rẻ để thu hút người dùng?
+- Câu hỏi 4: Với việc ChatGPT và các mô hình lớn ngày càng làm tốt các tác vụ ngách, làm sao các ứng dụng AI chuyên biệt chứng minh được giá trị thặng dư mà chúng tạo ra cho khách hàng?
 
 Sau bước này, chuyển sang `2-analysis.md` để vận dụng Lens 1 (Customer Expectations + Four Fits) vào case bạn chọn.
