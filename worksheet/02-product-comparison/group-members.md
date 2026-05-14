@@ -17,27 +17,27 @@ File này khai báo 2 thành viên trong nhóm + phân công thực hiện.
 
 | # | Mã học viên | Họ tên đầy đủ | Phân công chính |
 |---|---|---|---|
-| 1 | A20-XXXXX | [...] | [...] |
-| 2 | A20-XXXXX | [...] | [...] |
+| 1 | 2A202600015 | Chu Thị Ngọc Huyền | Thử nghiệm Sản phẩm A, tổng hợp số liệu phân tích |
+| 2 | 2A202600215 | Nguyễn Thị Tuyết | Thử nghiệm Sản phẩm B, thiết kế slide report |
 
 ---
 
 ## Nhiệm vụ thử nghiệm chung
 
-[Mô tả 1-2 câu nhiệm vụ chung mà cả 2 thành viên cùng test trên 2 sản phẩm. Ví dụ: "Viết bản tóm tắt 200 từ về tác động của AI lên ngành ed-tech, có dẫn nguồn."]
+[Mô tả: "Viết một bài blog chuẩn SEO dài 500 từ giới thiệu về xu hướng sử dụng AI trong marketing năm 2026, có định dạng tiêu đề và kêu gọi hành động (Call to action)."]
 
-**Ngành chọn**: [A — Tìm kiếm / B — Lập trình / C — Viết lách / D — Nghiên cứu]
+**Ngành chọn**: C — Viết lách (Content/Marketing)
 
-**Sản phẩm A**: [tên + URL]
+**Sản phẩm A**: ChatGPT (https://chatgpt.com)
 
-**Sản phẩm B**: [tên + URL]
+**Sản phẩm B**: Jasper AI (https://www.jasper.ai)
 
 ---
 
 ## Phân chia screenshot
 
-- Sản phẩm A → [Mã học viên nào phụ trách chụp]
-- Sản phẩm B → [Mã học viên nào phụ trách chụp]
+- Sản phẩm A (ChatGPT) → 2A202600015 (Chu Thị Ngọc Huyền)
+- Sản phẩm B (Jasper AI) → 2A202600215 (Nguyễn Thị Tuyết)
 
 ---
 
